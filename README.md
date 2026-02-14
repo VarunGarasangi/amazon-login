@@ -23,3 +23,14 @@ It updates the remote branch with your latest changes.
 
 git pull = git pull fetches changes from a remote repository and merges them into your local branch.
 It keeps your local copy up-to-date with the latest commits.
+
+git checkout = git checkout lets you switch between branches or restore files in your repository.
+It changes your working directory to match a specific branch or commit.
+
+git ignore = A .gitignore file tells Git which files or folders to ignore and not track.
+It’s used for temporary files, build outputs, or sensitive data you don’t want in the repository.
+
+git reset = git reset is used to undo changes in your Git repository.
+It can unstage files, undo commits, or completely revert your project to a previous state.
+
+
