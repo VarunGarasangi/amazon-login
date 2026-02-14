@@ -1,36 +1,24 @@
 # Git commands
- 
 
-git clone = git clone is a Git command used to create a local copy of a remote repository.
-
-git init = git init creates a new Git repository in the current directory by adding a hidden .git folder.
-It allows you to start tracking changes and managing versions of your project.
-
-git status = git status shows the current state of your working directory and staging area.
-It tells you which files are modified, staged, or untracked.
-
-git add = git add stages changes so they are included in the next commit.
-It moves modified or new files into the staging area.
-
-git commit = git commit saves your staged changes permanently in the repository.
-It creates a snapshot of your project with a message describing the changes.
-
-git log = git log shows a list of all commits in the repository.
-It displays commit IDs, authors, dates, and messages for each change.
-
-git push = git push uploads your local commits to a remote repository.
-It updates the remote branch with your latest changes.
-
-git pull = git pull fetches changes from a remote repository and merges them into your local branch.
-It keeps your local copy up-to-date with the latest commits.
-
-git checkout = git checkout lets you switch between branches or restore files in your repository.
-It changes your working directory to match a specific branch or commit.
-
-git ignore = A .gitignore file tells Git which files or folders to ignore and not track.
-It’s used for temporary files, build outputs, or sensitive data you don’t want in the repository.
-
-git reset = git reset is used to undo changes in your Git repository.
-It can unstage files, undo commits, or completely revert your project to a previous state.
+- git clone 
+- git init 
+- git status
+- git add
+- git commit 
+- git log 
+- git push
+- git pull
+- git checkout
+- git ignore
+- git reset 
 
 
+
+no | Git command | Short Explanation |
+---|-------------|-------------------|
+1  |git clone    |git clone is a Git command used to create a copy of a remote repository on your local machine.
+2  |git init     |git init is used to initialize a new Git repository in your current directory.
+3  |git status   |git status shows the current state of your working directory and staging area.
+4 |git add | git add is used to move changes into the staging area so they’re ready to be committed.
+5 | git commit | git commit is used to save staged changes permanently in your Git repository.
+6 | git log | git log shows the commit history of your repository.
